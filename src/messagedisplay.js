@@ -11,7 +11,7 @@ class MessageDisplay extends Component {
       const rs = this.props.rs;
       if (rs) {
         const getMessageUrl =
-          "http://secret-be.herokuapp.com/message-by-id/" + rs;
+          "https://secret-be.herokuapp.com/message-by-id/" + rs;
         const getMsgRes = await fetch(getMessageUrl);
         const messageData = await getMsgRes.json();
         this.setState({ result: messageData.result });

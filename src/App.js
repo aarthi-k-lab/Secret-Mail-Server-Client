@@ -45,7 +45,7 @@ class App extends Component {
 
   handleSendMail = async (targeturl, email, password, key, Message) => {
     try {
-      const createmsgurl = "http://secret-be.herokuapp.com/create-message";
+      const createmsgurl = "https://secret-be.herokuapp.com/create-message";
 
       const msgdata = {
         randomKey: key,
@@ -82,7 +82,7 @@ class App extends Component {
   };
 
   handleDelete = async (password, key) => {
-    const deletemsgurl = "http://secret-be.herokuapp.com/delete-message";
+    const deletemsgurl = "https://secret-be.herokuapp.com/delete-message";
 
     const deletemsgdata = {
       secretKey: key,
