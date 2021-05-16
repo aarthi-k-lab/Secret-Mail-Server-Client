@@ -7,7 +7,7 @@ class SendMail extends Component {
     key: "",
     Message: "",
     checked: false,
-    defaultUrl: "http://localhost:3000/message",
+    defaultUrl: "https://sms-ak-app.netlify.app/message",
   };
 
   componentDidMount = () => {
