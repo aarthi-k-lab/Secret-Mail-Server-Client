@@ -7,7 +7,7 @@ class SendMail extends Component {
     key: "",
     Message: "",
     checked: false,
-    defaultUrl: "https://localhost:3200/",
+    defaultUrl: "http://localhost:3000/message",
   };
 
   componentDidMount = () => {
