@@ -79,6 +79,19 @@
   color: green;
 }
 
+.AboutUs {
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.5);
+  filter: blur(0.2px);
+  background: inherit;
+  /* width: 80%; */
+  text-align: center;
+}
+
 @media (min-width: 768px) and (max-width: 992px) {
   .sendEmailformdiv,
   .deleteMessageformdiv {
